@@ -30,6 +30,8 @@
     [self.addUserButton setHidden:NO];
     [self.logoutButton setHidden:YES];
     [self.usernameField setHidden:NO];
+    [self.usernameField setText:@""];
+    [self.passwordField setText:@""];
     [self.passwordField setHidden:NO];
     [self.passwordLabel setHidden:NO];
     [self.usernameLabel setHidden:NO];
